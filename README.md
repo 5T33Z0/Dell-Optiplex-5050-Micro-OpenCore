@@ -44,7 +44,13 @@ I've generated the base EFI folder with OpCore Simplify but I had to modify and 
 …todo…
 
 ## Deployment
-…todo…
+- Download the latest OC EFI folder from the "Releases" section
+- Extract it
+- Open the config.plist with OCAT
+- Select the PlatformInfo/Generic Section and Generate a Serial number
+- Copy EFI to a FAT32 formtted USB flash drive
+- Boot macOS from the USB flash drive
+- If the folder works then copy it to your internal disk
 
 ## Credits
 - lzhoang2801 for [**OpCore Simplify**](https://github.com/lzhoang2801/OpCore-Simplify)
