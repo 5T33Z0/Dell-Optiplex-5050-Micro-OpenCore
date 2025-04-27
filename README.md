@@ -9,7 +9,7 @@ I've generated the base EFI folder with OpCore Simplify but I had to modify and 
 
 - I added IRQ fixes for working audio 
 - Added a proper framebufer patch so that on-bord graphics acceleration would work. 
-- Added a modified DMAR Tabel with stripped Reserved Memory Regions so that the `DisableIOMaper` quirk is not required and `AppleVTD` does work.
+- Added a modified DMAR table with stripped Reserved Memory Regions so that the `DisableIOMaper` quirk is not required and `AppleVTD` does work.
 
 It's currently using the `iMac18,3` SMBIOS because that's the closest in terms of CPU specs. The `macmini8,3` SMBIOS uses an 8th Gen CPU, so it's not really suited for this system.
 
