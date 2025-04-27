@@ -1,0 +1,342 @@
+{
+    "Motherboard": {
+        "Name": "DELL OPTIPLEX 5050",
+        "Chipset": "Q270",
+        "Platform": "Desktop"
+    },
+    "BIOS": {
+        "Version": "1.32.0",
+        "Release Date": "2024-09-06",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "Intel(R) Core(TM) i5-7500T",
+        "Codename": "Kaby Lake",
+        "Core Count": "04",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    },
+    "GPU": {
+        "Intel(R) HD Graphics 630": {
+            "Manufacturer": "Intel",
+            "Codename": "Kaby Lake",
+            "Device ID": "8086-5912",
+            "Device Type": "Integrated GPU",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PCI0.GFX0",
+            "Resizable BAR": "Disabled"
+        }
+    },
+    "Monitor": {
+        "49UHD_LCD_TV": {
+            "Connector Type": "HDMI",
+            "Resolution": "3840x2160",
+            "Connected GPU": "Intel(R) HD Graphics 630"
+        }
+    },
+    "Network": {
+        "Intel(R) Ethernet Connection (5) I219-V": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-15D6",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x6)",
+            "ACPI Path": "\\_SB.PCI0.GLAN"
+        }
+    },
+    "Sound": {
+        "Realtek(R) Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10EC-0255",
+            "Subsystem ID": "102807A2",
+            "Audio Endpoints": [
+                "Lautsprecher / Kopfh\u00f6rer"
+            ],
+            "Controller Device ID": "8086-A2F0"
+        },
+        "Intel(R) Display-Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "8086-280B",
+            "Subsystem ID": "80860101",
+            "Audio Endpoints": [
+                "49UHD_LCD_TV"
+            ],
+            "Controller Device ID": "8086-A2F0"
+        }
+    },
+    "USB Controllers": {
+        "Intel(R) USB 3.0 eXtensible-Hostcontroller \u2013 1.0 (Microsoft)": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A2AF",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PCI0.XHC_"
+        }
+    },
+    "Input": {
+        "Unifying Receiver": {
+            "Bus Type": "USB",
+            "Device ID": "046D-C52B"
+        }
+    },
+    "Storage Controllers": {
+        "200 Series PCH SATA controller [AHCI mode]": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A282",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x17,0x0)",
+            "ACPI Path": "\\_SB.PCI0.SAT0",
+            "Disk Drives": [
+                "Samsung SSD 860 EVO 250GB"
+            ]
+        }
+    },
+    "System Devices": {
+        "Hauptplatinenressourcen": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.SIO1"
+        },
+        "Hauptplatinenressourcen_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PDRC"
+        },
+        "Hauptplatinenressourcen_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.LDRC"
+        },
+        "Hauptplatinenressourcen_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.SIRC"
+        },
+        "ACPI-L\u00fcfter": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN0"
+        },
+        "ACPI-L\u00fcfter_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN1"
+        },
+        "ACPI-L\u00fcfter_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN2"
+        },
+        "ACPI-L\u00fcfter_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN3"
+        },
+        "ACPI-L\u00fcfter_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN4"
+        },
+        "ACPI-Prozessoraggregator": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI000C",
+            "ACPI Path": "\\_SB.PAGD"
+        },
+        "Volume-Manager": {
+            "Bus Type": "ROOT",
+            "Device": "VOLMGR"
+        },
+        "Intel(R) Xeon(R) E3 - 1200 v6/7th Gen Intel(R) Core(TM) Host Bridge/DRAM Registers - 591F": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-591F",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)"
+        },
+        "Programmierbarer Interruptcontroller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0000",
+            "ACPI Path": "\\_SB.PCI0.LPCB.IPIC"
+        },
+        "Microsoft Basic Display Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICDISPLAY"
+        },
+        "ACPI-Energiezustandknopf": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0E",
+            "ACPI Path": "\\_SB.SLPB"
+        },
+        "Hauptplatinenressourcen_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.LDR2"
+        },
+        "ACPI-Thermozone": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.TZ00"
+        },
+        "ACPI-Thermozone_#1": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.TZ01"
+        },
+        "Microsoft Windows-Verwaltungsschnittstelle f\u00fcr ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.AMW0"
+        },
+        "Microsoft Hyper-V-Virtualisierungsinfrastrukturtreiber": {
+            "Bus Type": "ROOT",
+            "Device": "VID"
+        },
+        "Hochpr\u00e4zisionsereigniszeitgeber": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.PCI0.LPCB.HPET"
+        },
+        "Busenumerator f\u00fcr Verbundger\u00e4te": {
+            "Bus Type": "ROOT",
+            "Device": "COMPOSITEBUS"
+        },
+        "Microsoft virtueller Datentr\u00e4gerenumerator": {
+            "Bus Type": "ROOT",
+            "Device": "VDRVROOT"
+        },
+        "Numerischer Coprozessor": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C04",
+            "ACPI Path": "\\_SB.PCI0.LPCB.MATH"
+        },
+        "Hauptplatinenressourcen_#5": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PRRE"
+        },
+        "Intel(R) 200 Series Chipset Family LPC Controller (Q270) - A2C6": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A2C6",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x0)",
+            "ACPI Path": "\\_SB.PCI0.LPCB"
+        },
+        "Systemzeitgeber": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0100",
+            "ACPI Path": "\\_SB.PCI0.LPCB.TIMR"
+        },
+        "Intel(R) 200 Series Chipset Family PMC - A2A1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A2A1",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x2)",
+            "ACPI Path": "\\_SB.PCI0.PPMC"
+        },
+        "UMBus-Stamm-Busenumerator": {
+            "Bus Type": "ROOT",
+            "Device": "UMBUS"
+        },
+        "Legacyger\u00e4t": {
+            "Bus Type": "ACPI",
+            "Device": "INT0800",
+            "ACPI Path": "\\_SB.PCI0.LPCB.FWHD"
+        },
+        "Stammkomplex f\u00fcr PCI-Express": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.PCI0"
+        },
+        "Hauptplatinenressourcen_#6": {
+            "Bus Type": "ACPI",
+            "Device": "INT3F0D",
+            "ACPI Path": "\\_SB.PCI0.LPCB.CWDT"
+        },
+        "ACPI-Einschaltknopf": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0C",
+            "ACPI Path": "\\_SB.PWRB"
+        },
+        "Microsoft ACPI-konformes System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "PNP0C08"
+        },
+        "Microsoft Basic Render Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICRENDER"
+        },
+        "Microsoft UEFI-konformes System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "UEFI"
+        },
+        "ACPI-Schalter": {
+            "Bus Type": "ACPI",
+            "Device": "FIXEDBUTTON"
+        },
+        "Intel(R) 200 Series Chipset Family SMBUS - A2A3": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A2A3",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x4)",
+            "ACPI Path": "\\_SB.PCI0.SBUS"
+        },
+        "Intel(R)-Energiemodul-Plug-In": {
+            "Bus Type": "ACPI",
+            "Device": "INT33A1",
+            "ACPI Path": "\\_SB.PEPD"
+        },
+        "Hauptplatinenressourcen_#7": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.IOTR"
+        },
+        "System CMOS/Echtzeituhr": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0B00",
+            "ACPI Path": "\\_SB.PCI0.LPCB.RTC_"
+        },
+        "Enumerator f\u00fcr virtuelle NDIS-Netzwerkadapter": {
+            "Bus Type": "ROOT",
+            "Device": "NDISVIRTUALBUS"
+        },
+        "Intel(R) 200 Series Chipset Family Thermal subsystem - A2B1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A2B1",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x2)"
+        },
+        "High Definition Audio-Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A2F0",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x3)",
+            "ACPI Path": "\\_SB.PCI0.HDAS"
+        },
+        "Microsoft-Systemverwaltungs-BIOS-Treiber": {
+            "Bus Type": "ROOT",
+            "Device": "MSSMBIOS"
+        },
+        "Hauptplatinenressourcen_#8": {
+            "Bus Type": "ACPI",
+            "Device": "INT340E",
+            "ACPI Path": "\\_SB.PTID"
+        },
+        "Intel(R) Management Engine Interface #1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A2BA",
+            "Subsystem ID": "07A21028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x16,0x0)",
+            "ACPI Path": "\\_SB.PCI0.HECI"
+        },
+        "PnP-Softwareger\u00e4te-Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Redirector-Bus f\u00fcr Remotedesktop-Ger\u00e4t": {
+            "Bus Type": "ROOT",
+            "Device": "RDPBUS"
+        }
+    }
+}
