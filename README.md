@@ -59,7 +59,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 	- **Drives**: Enable the Interfaces you want/need (SATA/M.2)
 	- **USB Configuration**: enable the USB ports you want/need (no USB kext required, since it's within the 15 port Limit, defined as the correct types already)
 - **Video**
-	- Primayry Display: Intel HD Graphics
+	- Primary Display: Intel HD Graphics
 - **Secure Boot**
 	- Seucre Boot Enable: Disabled
 - **Intel Software Guard Extension**
