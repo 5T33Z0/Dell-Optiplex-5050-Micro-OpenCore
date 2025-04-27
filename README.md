@@ -89,7 +89,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 > If your Dell Optiplex has a WiFI/BT card you still have to add the required kexts and settings (and maybe OCLP root patches) to make it work! 
 
 ## Deployment
-- Download the latest OC EFI folder from the "Releases" section
+- Download the latest OC EFI folder from the "[Releases](https://github.com/5T33Z0/Dell-Optiplex-5050-Micro-OpenCore/releases)" section
 - Extract it
 - Open the config.plist with OCAT
 - Select the PlatformInfo/Generic Section and Generate a Serial number
