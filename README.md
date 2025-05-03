@@ -46,7 +46,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
   
 ## Issues
 
-- [ ] Black Screen on wake: This has to be addressed. Adding the `force-online` property to the framebuffer patch didn't help. The workaround for now is to prohibit the display form turingn off when the system is idle (see System Settings &rarr; Lock Screen) 
+- [ ] Black Screen on wake: This has to be addressed. Adding the `force-online` property to the framebuffer patch didn't help. The workaround for now is to prohibit the display form turning off when the system is idle (see System Settings &rarr; Lock Screen) 
 
 ## BIOS Settings
 
