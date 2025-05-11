@@ -39,14 +39,16 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 ### Hardware
 
 - [x] iGPU (Intel HD Graphics 630)
-- [x] SATA drive
+	- [x] HDMI Port (`con0`)
+ 	- [x] Display Port (`con1`)  
+- [x] SATA Controller
 - [x] USB 3.1 (XHCI)
 - [x] Ethernet
-- [x] Audio
+- [x] Audio (Line-Out, Mic, Headphone, Built-in Speaker)
   
 ## Issues
 
-- [ ] Black Screen on wake: This has to be addressed. Adding the `force-online` property to the framebuffer patch didn't help. The workaround for now is to prohibit the display form turning off when the system is idle (see System Settings &rarr; Lock Screen) 
+- [ ] Black Screen on wake – displays won't turn on after exiting sleep. Adding the `force-online` property to the framebuffer patch didn't help. The workaround for now is to prohibit the display form turning off when the system is idle (see System Settings &rarr; Lock Screen) 
 
 ## BIOS Settings
 
