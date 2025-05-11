@@ -22,7 +22,8 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 **Model**       | Dell OptiPlex 5050 Micro
 **Regulatory Type** | D10U002
 **CPU**         | 7th Gen Intel® Core™ i5-7500T (Kaby Lake) 
-**GPU**         | Intel HD Graphics 630 
+**GPU**         | Intel HD Graphics 630
+**Sound**       | Realtek ALC255 <br> Layout: `11`
 **RAM**         | 8GB 2400MHz DDR4 
 **Storage**     | Samsung SSD 860 EVO 250GB     
 **NIC**         | Intel I219-LM
