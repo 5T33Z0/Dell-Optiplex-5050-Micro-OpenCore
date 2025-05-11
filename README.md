@@ -24,7 +24,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 **CPU**         | 7th Gen Intel® Core™ i5-7500T (Kaby Lake) 
 **GPU**         | Intel HD Graphics 630 
 **RAM**         | 8GB 2400MHz DDR4 
-**Storage**     | 120 GB SATA SSD      
+**Storage**     | Samsung SSD 860 EVO 250GB     
 **NIC**         | Intel I219-LM
 **WiFi/BT**     | N.A. 
 **SMBIOS**      | `iMac18,3`       
