@@ -27,8 +27,11 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 **RAM**         | 8GB 2400MHz DDR4 
 **Storage**     | Samsung SSD 860 EVO 250GB     
 **NIC**         | Intel I219-LM
+**USB**         | 6 USB Tye A Ports <br> Spec: USB 3.1 Gen 1 (up to 5 Gbps)
 **WiFi/BT**     | N.A. 
 **SMBIOS**      | `iMac18,3`       
+
+**Owner's Manual**: https://dl.dell.com/topicspdf/optiplex-5050-desktop_owners-manual2_en-us.pdf
 
 ## What works?
 
@@ -40,7 +43,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 ### Hardware
 
 - [x] iGPU (Intel HD Graphics 630)
-	- [x] HDMI Port (`con0`)
+	- [x] HDMI 1.4 Port (`con0`)
  	- [x] Display Port (`con1`)  
 - [x] SATA Controller
 - [x] USB 3.1 (XHCI)
