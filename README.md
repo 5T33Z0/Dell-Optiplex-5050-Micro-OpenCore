@@ -5,11 +5,11 @@
 
 ## About
 
-OpenCore EFI Folder for the **Dell OptiPlex 5050 Micro Small Form Factor** Desktop with an Intel® Core™ i5-7500T. This model has no Wi-Fi/BT module (yet) – it's connected via LAN. I am basically using it as a streaming box connected to my TV via HDMI controlled via a Wireless Keyboard (Logitec 400k+).
+OpenCore EFI Folder for the **Dell OptiPlex 5050 Micro Small Form Factor** Desktop with an Intel® Core™ i5-7500T. This model has no Wi-Fi/BT module (yet) – it's connected via LAN. I am basically using it as a streaming box connected to my TV via HDMI controlled via a Wireless Keyboard (Logitec 400k+). I get 4k resolution at 60 Hz in Windows – I can't seem to enable it in macOS, though (no LSPCON).
 
 I've generated the base EFI folder with OpCore Simplify but I had to modify and tweak it a bit: 
 
-- I added IRQ fixes for working audio 
+- Added IRQ fixes so audio works 
 - Added a proper framebufer patch so that on-bord graphics acceleration would work. 
 - Added a modified DMAR table with stripped Reserved Memory Regions so that the `DisableIOMaper` quirk is not required and `AppleVTD` does work.
 
@@ -32,6 +32,10 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 **SMBIOS**      | `iMac18,3`       
 
 **Owner's Manual**: https://dl.dell.com/topicspdf/optiplex-5050-desktop_owners-manual2_en-us.pdf
+
+>[!NOTE]
+>
+> **WiFi**: I've tested Wi-Fi with a TP Link [Archer T2U Nano](https://www.tp-link.com/de/home-networking/adapter/archer-t2u-nano/) USB dongle and this [tool](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) in macOS Sonoma and Sequoia and it's working fine.
 
 ## What works?
 
