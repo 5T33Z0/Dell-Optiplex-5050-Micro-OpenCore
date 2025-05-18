@@ -27,7 +27,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 **RAM**         | 8GB 2400MHz DDR4 
 **Storage**     | Samsung SSD 860 EVO 250GB     
 **NIC**         | Intel I219-LM
-**USB**         | 6 USB Tye A Ports <br> Spec: USB 3.1 Gen 1 (up to 5 Gbps)
+**USB**         | 6 USB Type A Ports <br> Spec: USB 3.1 Gen 1 (up to 5 Gbps)
 **WiFi/BT**     | N.A. 
 **SMBIOS**      | `iMac18,3`       
 
