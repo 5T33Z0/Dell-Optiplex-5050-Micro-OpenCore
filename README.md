@@ -48,11 +48,16 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 
 - [x] iGPU (Intel HD Graphics 630)
 	- [x] HDMI 1.4 Port (`con0`)
- 	- [x] Display Port (`con1`)  
+	- [x] Display Port (`con1`)
+	- [x] Display Port (`con2`)  
 - [x] SATA Controller
 - [x] USB 3.1 (XHCI)
 - [x] Ethernet
 - [x] Audio (Line-Out, Mic, Headphone, Built-in Speaker)
+
+> [!NOTE]
+>
+> Display Port `con2` is an optional expansion not present on stock devices (Dell Micro_DP Upgrade A00 LX4038).
   
 ## Issues
 
