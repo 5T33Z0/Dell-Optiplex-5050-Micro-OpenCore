@@ -3,6 +3,24 @@
 
 ![optiplex5050](https://github.com/user-attachments/assets/b9b0908a-2a02-46fc-9964-239fdfd2c4a8)
 
+----
+
+**TABLE of CONTENTS**
+
+- [About](#about)
+- [System Specs](#system-specs)
+- [What works?](#what-works)
+	- [macOS (tested)](#macos-tested)
+	- [Hardware](#hardware)
+- [Issues](#issues)
+- [BIOS Settings](#bios-settings)
+- [Deployment](#deployment)
+- [Post-Install](#post-install)
+	- [Fixing Sleep issues](#fixing-sleep-issues)
+- [Credits](#credits)
+
+---
+
 ## About
 
 OpenCore EFI Folder for the **Dell OptiPlex 5050 Micro Small Form Factor** Desktop with an Intel® Core™ i5-7500T. This model has no Wi-Fi/BT module (yet) – it's connected via LAN. I am basically using it as a streaming box connected to my TV via HDMI controlled via a Wireless Keyboard (Logitec 400k+). I get 4k resolution at 60 Hz in Windows – I can't seem to enable it in macOS, though (no LSPCON).
@@ -114,6 +132,28 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 - Copy EFI to a FAT32 formtted USB flash drive
 - Boot macOS from the USB flash drive
 - If the folder works then copy it to your internal disk
+
+## Post-Install
+
+### Fixing Sleep issues
+
+In order to prevent the most common issues with sleep, we will set it to `hibernatemode 0` (Suspend to RAM), write protect the slee pimage using Terminal:
+
+
+```bash
+sudo pmset -a hibernatemode 0
+sudo rm /var/vm/sleepimage
+sudo touch /var/vm/sleepimage
+sudo chflags uchg /var/vm/sleepimage
+```
+
+Next, we disable `displaysleep` and `powernap` to workaround the black-screen-on-wake issue. And since this Mini-PC does not have a motion sensor, we also disable proximitywake: 
+
+```bash 
+sudo pmset displaysleep 0
+sudo pmset powernap 0
+sudo pmset proximitywake 0
+```
 
 ## Credits
 - lzhoang2801 for [**OpCore Simplify**](https://github.com/lzhoang2801/OpCore-Simplify)
