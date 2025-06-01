@@ -128,8 +128,15 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 ## Deployment
 - Download the latest OC EFI folder from the [Releases](https://github.com/5T33Z0/Dell-Optiplex-5050-Micro-OpenCore/releases) section
 - Extract it
-- Open the config.plist with OCAT
-- Select the PlatformInfo/Generic Section and Generate a Serial number
+- Download [**OCAT**](https://github.com/ic005k/OCAuxiliaryTools) amd run it
+- In the menu bar select "Edit" > "OpenCore DEV" to change the OpenCore version
+- Ignore the warning about missing files
+- Next, click on "Upgrade OpenCore and Kexts"
+- In the "Sync" Window, click on "Get OpenCore" to download the latest OC build
+- Close the sync window
+- Back in the Main window click on the button to mount the EFI partiton
+- Click on "Mount and open config.plist"
+- Select the PlatformInfo/Generic Section and click on "Generate" next to the "SystemProductName" dropdown menu
 - Copy EFI to a FAT32 formtted USB flash drive
 - Boot macOS from the USB flash drive
 - If the folder works then copy it to your internal disk
