@@ -17,6 +17,7 @@
 - [Deployment](#deployment)
 - [Post-Install](#post-install)
 	- [Fixing Sleep issues](#fixing-sleep-issues)
+	- [Disable Gatekeeper (optional)](#disable-gatekeeper-optional)
 - [Credits](#credits)
 
 ---
@@ -154,6 +155,9 @@ sudo pmset displaysleep 0
 sudo pmset powernap 0
 sudo pmset proximitywake 0
 ```
+
+### Disable Gatekeeper (optional)
+I disable Gatekeeper on my systems because it is annoying and wants to stop you from running scripts from github etc. To do so, enter `sudo spctl --master-disable` in Terminal. Disabling Gatekeeper in macOS Sequoia requires a few more [steps](https://github.com/5T33Z0/OC-Little-Translated/blob/main/14_OCLP_Wintel/Guides/Disable_Gatekeeper.md).
 
 ## Credits
 - lzhoang2801 for [**OpCore Simplify**](https://github.com/lzhoang2801/OpCore-Simplify)
