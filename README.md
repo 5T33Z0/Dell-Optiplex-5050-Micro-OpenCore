@@ -128,7 +128,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 ## Deployment
 - Download the latest OC EFI folder from the [Releases](https://github.com/5T33Z0/Dell-Optiplex-5050-Micro-OpenCore/releases) section
 - Extract it
-- Download [**OCAT**](https://github.com/ic005k/OCAuxiliaryTools) amd run it
+- Download [**OCAT**](https://github.com/ic005k/OCAuxiliaryTools) and run it
 - In the menu bar select "Edit" > "OpenCore DEV" to change the OpenCore version
 - Ignore the warning about missing files
 - Next, click on "Upgrade OpenCore and Kexts"
