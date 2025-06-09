@@ -40,6 +40,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 ----------------|:--------------------------------|
 **Model**       | Dell OptiPlex 5050 Micro
 **Regulatory Type** | D10U002
+**Chipset**     | Intel [Q270](https://www.intel.com/content/www/us/en/products/sku/98088/intel-q270-chipset/specifications.html)
 **CPU**         | 7th Gen Intel® Core™ i5-7500T (Kaby Lake) 
 **GPU**         | Intel HD Graphics 630
 **Sound**       | Realtek ALC255 <br> Layout: `11`
@@ -50,7 +51,8 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 **WiFi/BT**     | N.A. 
 **SMBIOS**      | `iMac18,3`       
 
-**Owner's Manual**: https://dl.dell.com/topicspdf/optiplex-5050-desktop_owners-manual2_en-us.pdf
+**More Info**: https://www.hardware-corner.net/desktop-models/Dell-OptiPlex-5050M/<br>
+**Manual**: https://dl.dell.com/topicspdf/optiplex-5050-desktop_owners-manual2_en-us.pdf
 
 >[!NOTE]
 >
