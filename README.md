@@ -36,7 +36,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 
 |⚠️ Important Updates|
 |:--------------------------|
-| Don't install macOS Tahoe yet!
+| Don't install macOS Tahoe yet! Initial installation works but the system crashes half way during boot.
 
 ## System Specs
 
