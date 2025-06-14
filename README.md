@@ -41,7 +41,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 ## System Specs
 
 **Compenent**   | Description 
-----------------|:--------------------------------|
+---------------:|:--------------------------------|
 **Model**       | Dell OptiPlex 5050 Micro
 **Regulatory Type** | D10U002
 **Chipset**     | Intel [Q270](https://www.intel.com/content/www/us/en/products/sku/98088/intel-q270-chipset/specifications.html)
