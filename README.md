@@ -34,6 +34,10 @@ I've generated the base EFI folder with OpCore Simplify but I had to modify and 
 
 It's currently using the `iMac18,3` SMBIOS because that's the closest in terms of CPU specs. The `macmini8,3` SMBIOS uses an 8th Gen CPU, so it's not really suited for this system.
 
+|⚠️ Important Updates|
+|:--------------------------|
+| Don't install macOS Tahoe yet!
+
 ## System Specs
 
 **Compenent**   | Description 
