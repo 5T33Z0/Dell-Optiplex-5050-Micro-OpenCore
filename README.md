@@ -1,5 +1,5 @@
 # Dell Optiplex 5050 Micro OpenCore
-[![Dell](https://img.shields.io/badge/Dell-Optiplex_5050_Micro-informational.svg)](https://dl.dell.com/topicspdf/optiplex-5050-desktop_owners-manual2_en-us.pdf) [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.5-cyan.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) ![MacOS](https://img.shields.io/badge/macOS-14.7.5–15.5-purple.svg) [![release](https://img.shields.io/badge/Download-latest-success.svg)](https://github.com/5T33Z0/Dell-Optiplex-5050-Micro-OpenCore/releases)
+[![Dell](https://img.shields.io/badge/Dell-Optiplex_5050_Micro-informational.svg)](https://dl.dell.com/topicspdf/optiplex-5050-desktop_owners-manual2_en-us.pdf) [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.5-cyan.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) ![MacOS](https://img.shields.io/badge/macOS-14.7.5–26b-purple.svg) [![release](https://img.shields.io/badge/Download-latest-success.svg)](https://github.com/5T33Z0/Dell-Optiplex-5050-Micro-OpenCore/releases)
 
 ![optiplex5050](https://github.com/user-attachments/assets/b9b0908a-2a02-46fc-9964-239fdfd2c4a8)
 
@@ -36,7 +36,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 
 |⚠️ Important Updates|
 |:--------------------------|
-| Don't install macOS Tahoe yet! Initial installation works but the system crashes half way during boot.
+| Works with macOS Tahoe beta
 
 ## System Specs
 
@@ -66,6 +66,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 
 ### macOS (tested)
 
+- [x] macOS Tahoe beta
 - [x] macOS Sequoia
 - [x] macOS Sonoma
 
