@@ -77,7 +77,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 	- [x] Display Port (`con1`)
 	- [x] Display Port (`con2`)  
 - [x] SATA Controller
-- [x] USB 3.1 (XHCI)
+- [x] USB 3.1 (XHCI). Only 12 ports in total are enabled in the OEM USB SSDT, so no port mapping is required!
 - [x] Ethernet
 - [x] Audio (Line-Out, Mic, Headphone, Built-in Speaker)
 
