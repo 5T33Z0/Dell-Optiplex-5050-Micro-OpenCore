@@ -87,7 +87,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
   
 ## Issues
 
-- [ ] Black Screen on wake – displays won't turn on after exiting sleep. Adding the `force-online` property to the framebuffer patch didn't help. The workaround for now is to prohibit the display form turning off when the system is idle (see System Settings &rarr; Lock Screen)
+- [ ] Black Screen on Wake – displays won't turn on after exiting sleep. Adding `force-online` property to the framebuffer patch didn't help. The workaround for now is to prohibit the display form turning off when the system is idle (see System Settings &rarr; Lock Screen). **Update**: I just realized, if you use an DisplayPort to HDMI cable, waking the display after sleep actually works! Maybe DP to DP works as well. 
 - [ ] No 4k resolution in macOS (I either can't find the required LPSCON to enable 4K output or doesn't have one)
 
 ## BIOS Settings
