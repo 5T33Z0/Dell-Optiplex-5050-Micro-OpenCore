@@ -45,7 +45,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 **Model**       | Dell OptiPlex 5050 Micro
 **Regulatory Type** | D10U002
 **Chipset**     | Intel [Q270](https://www.intel.com/content/www/us/en/products/sku/98088/intel-q270-chipset/specifications.html)
-**CPU**         | 7th Gen Intel® Core™ i5-7500T (Kaby Lake) 
+**CPU**         | 7th Gen Intel® Core™ [i5-7500T](https://www.intel.com/content/www/us/en/products/sku/97121/intel-core-i57500t-processor-6m-cache-up-to-3-30-ghz/specifications.html) (Kaby Lake) 
 **GPU**         | Intel HD Graphics 630
 **Sound**       | Realtek ALC255 <br> Layout: `11`
 **RAM**         | 8GB 2400MHz DDR4 
