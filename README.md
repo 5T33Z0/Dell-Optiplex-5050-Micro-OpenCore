@@ -1,5 +1,5 @@
 # Dell Optiplex 5050 Micro OpenCore
-[![Dell](https://img.shields.io/badge/Dell-Optiplex_5050_Micro-informational.svg)](https://dl.dell.com/topicspdf/optiplex-5050-desktop_owners-manual2_en-us.pdf) [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.7-cyan.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) ![MacOS](https://img.shields.io/badge/macOS-14.7.5–26.2-purple.svg) [![release](https://img.shields.io/badge/Download-latest-success.svg)](https://github.com/5T33Z0/Dell-Optiplex-5050-Micro-OpenCore/releases)
+[![Dell](https://img.shields.io/badge/Dell-Optiplex_5050_Micro-informational.svg)](https://dl.dell.com/topicspdf/optiplex-5050-desktop_owners-manual2_en-us.pdf) [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.7-cyan.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) ![MacOS](https://img.shields.io/badge/macOS-14.7.5–26.x-purple.svg) [![release](https://img.shields.io/badge/Download-latest-success.svg)](https://github.com/5T33Z0/Dell-Optiplex-5050-Micro-OpenCore/releases)
 
 ![optiplex5050](https://github.com/user-attachments/assets/b9b0908a-2a02-46fc-9964-239fdfd2c4a8)
 
@@ -45,7 +45,7 @@ It's currently using the `iMac18,3` SMBIOS because that's the closest in terms o
 **Model**       | Dell OptiPlex 5050 Micro
 **Regulatory Type** | D10U002
 **Chipset**     | Intel [Q270](https://www.intel.com/content/www/us/en/products/sku/98088/intel-q270-chipset/specifications.html)
-**CPU**         | 7th Gen Intel® Core™ [i5-7500T](https://www.intel.com/content/www/us/en/products/sku/97121/intel-core-i57500t-processor-6m-cache-up-to-3-30-ghz/specifications.html) (Kaby Lake) 
+**CPU**         | 7th Gen Intel® Core™ [i5-7500T](https://www.intel.com/content/www/us/en/products/sku/97121/intel-core-i57500t-processor-6m-cache-up-to-3-30-ghz/specifications.html) (Kaby Lake)<br> Device-ID: `5912`
 **GPU**         | Intel HD Graphics 630
 **Sound**       | Realtek ALC255 <br> Layout: `11`
 **RAM**         | 8GB 2400MHz DDR4 
