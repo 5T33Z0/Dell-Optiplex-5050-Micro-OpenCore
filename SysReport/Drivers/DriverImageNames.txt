@@ -1,0 +1,13 @@
+AMI USB Driver
+Intel(R) Gigabit 0.0.13
+Intel(R) PCH Serial ATA Controller Initialization Driver
+PCI Serial Driver
+Generic Disk I/O Driver
+Partition Driver(MBR/GPT/El Torito)
+Integrated Touch Driver
+FAT File System Driver
+Intel(R) GOP Driver [9.0.1056]
+HFS File System Driver
+rEFInd 0.13.2 ext4 File System Driver
+rEFInd 0.13.2 btrfs File System Driver
+APFS
